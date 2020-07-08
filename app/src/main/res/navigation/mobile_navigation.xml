@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation">
+
+    <fragment
+        android:id="@+id/nav_match"
+        android:name="app.sharma.gogagaclone.ui.settings.SettingFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_settings" />
+
+    <fragment
+        android:id="@+id/nav_chats"
+        android:name="app.sharma.gogagaclone.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_match" />
+
+    <fragment
+        android:id="@+id/nav_notification"
+        android:name="app.sharma.gogagaclone.ui.notifications.NotificationsFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_notifications" />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="app.sharma.gogagaclone.ui.notifications.NotificationsFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_notifications" />
+</navigation>
